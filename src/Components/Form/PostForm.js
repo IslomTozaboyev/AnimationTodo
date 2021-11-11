@@ -41,7 +41,7 @@ const PostForm = ({ createPost }) => {
         onChange={(event) => setPost({ ...post, stack: event.target.value })}
       />
 
-      <MyButton className={"btn btn-primary"} onClick={addPost}>
+      <MyButton className={"btn btn-success w-100"} onClick={addPost}>
         Add post
       </MyButton>
     </form>

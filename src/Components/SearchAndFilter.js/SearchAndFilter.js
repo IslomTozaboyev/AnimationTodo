@@ -18,11 +18,11 @@ const SearchAndFilter = ({ filter, setFilter }) => {
         options={[
           {
             value: "title",
-            name: "Programming",
+            name: "Title",
           },
           {
-            value: "stack",
-            name: "Jobs",
+            value: "body",
+            name: "Body",
           },
         ]}
       />
