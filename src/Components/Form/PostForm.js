@@ -10,8 +10,8 @@ const PostForm = ({ createPost }) => {
 
     if (
       (post.title.length === 0 && post.stack.length === 0) ||
-      (post.title.length === 0 && post.stack.length != 0) ||
-      (post.title.length != 0 && post.stack.length === 0)
+      (post.title.length === 0 && post.stack.length !== 0) ||
+      (post.title.length !== 0 && post.stack.length === 0)
     ) {
       return alert("Please enter the post in full");
     }
